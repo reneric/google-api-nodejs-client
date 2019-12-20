@@ -26,6 +26,7 @@
     "fix": "eslint --fix '**/*.js' && gts fix",
     "pregenerate": "npm run build-tools",
     "generate": "node build/src/generator/generate.js",
+    "generatePartner": "node build/src/generator/generatePartner.js",
     "postgenerate": "npm run fix",
     "docs-test": "linkinator docs",
     "predocs-test": "npm run docs"
