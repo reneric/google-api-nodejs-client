@@ -179,6 +179,7 @@ import * as websecurityscanner from './websecurityscanner';
 import * as youtube from './youtube';
 import * as youtubeAnalytics from './youtubeAnalytics';
 import * as youtubereporting from './youtubereporting';
+import * as youtubePartner from './youtubePartner';
 
 export interface APIList {
   // tslint:disable-next-line: no-any
@@ -351,6 +352,7 @@ export const APIS: APIList = {
   websecurityscanner: websecurityscanner.VERSIONS,
   youtube: youtube.VERSIONS,
   youtubeAnalytics: youtubeAnalytics.VERSIONS,
+  youtubePartner: youtubePartner.VERSIONS,
   youtubereporting: youtubereporting.VERSIONS,
 };
 
@@ -524,4 +526,5 @@ export class GeneratedAPIs {
   youtube = youtube.youtube;
   youtubeAnalytics = youtubeAnalytics.youtubeAnalytics;
   youtubereporting = youtubereporting.youtubereporting;
+  youtubePartner = youtubePartner.youtubePartner;
 }

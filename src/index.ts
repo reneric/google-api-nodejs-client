@@ -273,6 +273,7 @@ export {websecurityscanner_v1} from './apis/websecurityscanner/v1';
 export {websecurityscanner_v1alpha} from './apis/websecurityscanner/v1alpha';
 export {websecurityscanner_v1beta} from './apis/websecurityscanner/v1beta';
 export {youtube_v3} from './apis/youtube/v3';
+export {youtubePartner_v1} from './apis/youtubePartner/v1';
 export {youtubeAnalytics_v1} from './apis/youtubeAnalytics/v1';
 export {youtubeAnalytics_v2} from './apis/youtubeAnalytics/v2';
 export {youtubereporting_v1} from './apis/youtubereporting/v1';
